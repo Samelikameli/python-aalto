@@ -35,6 +35,11 @@ sudo pip3 install flask paho-mqtt SpeechRecognition google-speech picamera
 git clone https://github.com/Pohjois-Tapiolan-lukio/raspberry_pi-projects.git
 ```
 
+```
+hostname -I
+```
+Saat ip-osoitteen, jolla voit yhdistää raspberryn terminaaliin omalta koneeltasi. Avaa omalla koneella terminaali, yhdistä samaan wifi-verkkoon kuin raspberry ja aja komento `ssh pi@192.168.43.238` niin, että korvaat tämän ip:n sillä, jonka sait ajamalla hostname-komennon. Salasana on raspberry.
+
 ## Google assistant
 1. Mene sivulle https://console.cloud.google.com/ ja kirjaudu google-tunnuksella
 2. Hyväksy ehdot
@@ -58,3 +63,4 @@ git clone https://github.com/Pohjois-Tapiolan-lukio/raspberry_pi-projects.git
 10. Ensimmäisellä välilehdellä paina refresh ja download
 ![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/credentials3.png)
 ![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/credentials4.png)
+11.
