@@ -16,3 +16,17 @@
 ![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/configuration.png)
 
 ![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/localisation.png)
+
+Aikavyöhykkeeksi Helsinki ja asetteluksi Finnish ja variantiksi Finnish.
+
+## Asennus
+
+1. Avaa terminaali näppäinyhdistelmällä Control+Alt+T
+2. Asenna tarpeellisia python-kirjastoja komennolla 
+```
+sudo pip3 install flask paho-mqtt SpeechRecognition google-speech picamera 
+```
+3. Lataa paketti projekteja raspberrylle:
+```
+git clone https://github.com/Pohjois-Tapiolan-lukio/raspberry_pi-projects.git
+```
