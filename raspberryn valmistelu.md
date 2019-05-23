@@ -11,9 +11,8 @@
 6. Yhdistä wifiin
 7. Hyväksy ohjelmistopäivitys ja odota sen valmistuminen
 8. Kun päivitys on valmis, valitse ok ja reboot.
-9. Vaihda näppäimistöasettelu:
+9. Vaihda näppäimistöasettelu ja aikavyöhyke:
 
-![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/layout.png)
+![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/configuration.png)
 
-
-![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/layout2.png)
+![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/localisation.png)
