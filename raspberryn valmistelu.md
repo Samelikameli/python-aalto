@@ -64,3 +64,7 @@ Saat ip-osoitteen, jolla voit yhdistää raspberryn terminaaliin omalta koneelta
 ![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/credentials3.png)
 ![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/credentials4.png)
 11. Kopioi ladattu client_id.json raspberryn kansioon /home/pi/ ja nimeä se uudelleen assistant.json:ksi
+12. Siirry AIY-esimerkkikansioon komennolla `cd ~/AIY-projects-python`
+13. Aja `src/examples/voice/assistant_grpc_demo.py`
+14. Aukeaa kirjautumisikkuna. Kirjaudu google-tililläsi
+15. Assistantin pitäisi toimia. Kokeile kysyä siltä jotain
