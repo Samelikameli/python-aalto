@@ -63,4 +63,4 @@ Saat ip-osoitteen, jolla voit yhdistää raspberryn terminaaliin omalta koneelta
 10. Ensimmäisellä välilehdellä paina refresh ja download
 ![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/credentials3.png)
 ![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/credentials4.png)
-11.
+11. Kopioi ladattu client_id.json raspberryn kansioon /home/pi/ ja nimeä se uudelleen assistant.json:ksi
