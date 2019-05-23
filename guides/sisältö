@@ -1,0 +1,13 @@
+<h1>
+Sisällysluettelo:
+</h1>
+
+<?php
+$l=array_diff(scandir(getcwd()."/guides/"),array(".","..","sisältö","images"));
+sort($l);
+
+foreach($l as $link){
+    print_r("<a class=list href=\"index.php?page=".$link."\">".$link."</a><br>");
+}
+
+?>
