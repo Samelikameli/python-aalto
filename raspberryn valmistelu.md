@@ -13,9 +13,9 @@
 8. Kun päivitys on valmis, valitse ok ja reboot.
 9. Vaihda näppäimistöasettelu ja aikavyöhyke:
 
-![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/interfaces.png)
-
 Varmista, että ainakin seuraavat ovat valittuina:
+
+![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/interfaces.png)
 
 ![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/configuration.png)
 
