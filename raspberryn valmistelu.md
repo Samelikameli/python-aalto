@@ -13,6 +13,10 @@
 8. Kun päivitys on valmis, valitse ok ja reboot.
 9. Vaihda näppäimistöasettelu ja aikavyöhyke:
 
+![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/interfaces.png)
+
+Varmista, että ainakin seuraavat ovat valittuina:
+
 ![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/configuration.png)
 
 ![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/localisation.png)
@@ -30,3 +34,6 @@ sudo pip3 install flask paho-mqtt SpeechRecognition google-speech picamera
 ```
 git clone https://github.com/Pohjois-Tapiolan-lukio/raspberry_pi-projects.git
 ```
+
+## Google assistant
+1. 
