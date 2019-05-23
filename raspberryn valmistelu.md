@@ -13,3 +13,7 @@
 8. Kun päivitys on valmis, valitse ok ja reboot.
 9. Vaihda näppäimistöasettelu:
 
+![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/layout.png)
+
+
+![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/layout2.png)
