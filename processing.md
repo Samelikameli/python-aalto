@@ -39,7 +39,7 @@ circle(200, 200, 50)        # ympyrä, ensin x, y -koordinaatit, sitten säde
 ellipse(200, 200, 100, 50)  # ellipsi, ensin x, y -koordinaatit, sitten leveys ja korkeus
 
 
-fill(255,0,0)               # Ennen kuvioita voi käyttää funkioita fill ja noFill, jotka määräävät, täytetäänkö kuvio
+fill(255, 0, 0)               # Ennen kuvioita voi käyttää funkioita fill ja noFill, jotka määräävät, täytetäänkö kuvio
 noFill()                    # fill ottaa parametriksi värin, noFill nollaa kaiken, joten se ei tarvitse parametria
 
 beginShape()                # piirtää monikulmion, jonka kulmat ovat pisteissä (300, 200), (300, 300) ja (400, 400)
@@ -69,9 +69,9 @@ class Adapter(MQTTListener):
     def disconnect():
         connectLost()
 
-adapter=Adapter()
+adapter = Adapter()
 
-client = MQTTClient(this,adapter)
+client = MQTTClient(this, adapter)
 ```
 
 Processing käyttää funkiota draw kuin looppina. Sen sisällä ole koodi toistetaan niin kauan kuin ohjelma suljetaan:
@@ -90,7 +90,7 @@ def setup():
 
 def draw():
     global x
-    background(255,255,255)
+    background(255, 255, 255)
     circle(x, x, 10)
 
     x = x + 1
