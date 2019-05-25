@@ -15,9 +15,10 @@
 
 Varmista, että ainakin seuraavat ovat valittuina:
 
-![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/interfaces.png)
 
 ![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/configuration.png)
+
+![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/interfaces.png)
 
 ![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/localisation.png)
 
