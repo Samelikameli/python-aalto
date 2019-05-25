@@ -39,6 +39,8 @@ circle(200, 200, 50)        # ympyrä, ensin x, y -koordinaatit, sitten säde
 ellipse(200, 200, 100, 50)  # ellipsi, ensin x, y -koordinaatit, sitten leveys ja korkeus
 
 
+fill(255,0,0)               # Ennen kuvioita voi käyttää funkioita fill ja noFill, jotka määräävät, täytetäänkö kuvio
+noFill()                    # fill ottaa parametriksi värin, noFill nollaa kaiken, joten se ei tarvitse parametria
 
 beginShape()                # piirtää monikulmion, jonka kulmat ovat pisteissä (300, 200), (300, 300) ja (400, 400)
 vertex(300, 200)
@@ -46,5 +48,53 @@ vertex(300, 300)
 vertex(400, 400)
 endShape(CLOSE)
 
+background(255, 255, 255)   # täyttää taustan värillä
 
 ```
+
+## Shiftr:iin yhdistäminen
+
+Shiftr:ia käyttäessä joudut käyttämään kiertotietä, koska kirjastoa ei suoraan tueta processingin python-moodissa. Kopioi seuraava koodinpätkä oman koodisi alkuun:
+```
+add_library("mqtt")
+class Adapter(MQTTListener):
+    def messageReceived(topic, payload):
+        pass
+    def clientConnected(x):
+        print("Connected")
+    def connectionLost():
+        print("Connection lost")
+    def connect():
+        clientConnected()
+    def disconnect():
+        connectLost()
+
+adapter=Adapter()
+
+client = MQTTClient(this,adapter)
+```
+
+Processing käyttää funkiota draw kuin looppina. Sen sisällä ole koodi toistetaan niin kauan kuin ohjelma suljetaan:
+```
+def draw():
+    print("Tämä toistetaan")
+```
+Jos käyttää draw-funktiota, muun koodin täytyy olla setup-funktion sisällä. Esimerkki:
+```
+def setup():
+    size(1000, 1000)
+    fill(255, 0, 0)
+
+    global x
+    x = 0
+
+def draw():
+    global x
+    background(255,255,255)
+    circle(x, x, 10)
+
+    x = x + 1
+```
+Draw-funktiolla voi tehdä animaatioita.
+
+
