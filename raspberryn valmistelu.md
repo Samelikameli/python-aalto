@@ -27,9 +27,10 @@ Aikavyöhykkeeksi Helsinki ja asetteluksi Finnish ja variantiksi Finnish.
 ## Asennus
 
 1. Avaa terminaali näppäinyhdistelmällä Control+Alt+T
-2. Asenna tarpeellisia python-kirjastoja komennolla 
+2. Asenna tarpeellisia python-kirjastoja komennoilla 
 ```
-sudo pip3 install flask paho-mqtt SpeechRecognition google-speech picamera 
+sudo pip3 install flask paho-mqtt SpeechRecognition google-speech picamera
+sudo apt install sox
 ```
 3. Lataa paketti projekteja raspberrylle:
 ```
