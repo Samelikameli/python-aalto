@@ -30,7 +30,7 @@ Aikavyöhykkeeksi Helsinki ja asetteluksi Finnish ja variantiksi Finnish.
 2. Asenna tarpeellisia python-kirjastoja komennoilla 
 ```
 sudo pip3 install flask paho-mqtt SpeechRecognition google-speech picamera
-sudo apt install sox
+sudo apt install libsox-fmt-mp3 sox
 ```
 3. Lataa paketti projekteja raspberrylle:
 ```
