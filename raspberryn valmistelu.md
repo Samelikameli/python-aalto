@@ -45,26 +45,44 @@ Saat ip-osoitteen, jolla voit yhdistää raspberryn terminaaliin omalta koneelta
 ## Google assistant
 1. Mene sivulle https://console.cloud.google.com/ ja kirjaudu google-tunnuksella
 2. Hyväksy ehdot
+
 ![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/login.png)
+
 3. Luo uusi projekti ja keksi sille nimi
+
 ![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/createproject.png)
 ![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/projectname.png)
+
 4. Valitse sivupalkista Library
+
 ![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/library.png)
+
 5. Etsi google assistant, klikkaa siitä ja paina enable
+
 ![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/assistant1.png)
 ![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/assistant2.png)
+
 6. Paina Create credentials
+
 ![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/credentials1.png)
+
 7. Täytä tiedot ja paina "What credentials do I need?"
+
 ![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/credentials2.png)
+
 8. Paina "Set up consent screen"
+
 ![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/oauth.png)
+
 9. Keksi nimi, scrollaa alas ja hyväksy
+
 ![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/oauthname.png)
+
 10. Ensimmäisellä välilehdellä paina refresh ja download
+
 ![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/credentials3.png)
 ![](https://raw.githubusercontent.com/Samelikameli/python-aalto/master/guides/images/credentials4.png)
+
 11. Kopioi ladattu client_id.json raspberryn kansioon /home/pi/ ja nimeä se uudelleen assistant.json:ksi
 12. Siirry AIY-esimerkkikansioon komennolla `cd ~/AIY-projects-python`
 13. Aja `src/examples/voice/assistant_grpc_demo.py`
